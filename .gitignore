@@ -1,0 +1,29 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+a.out
+*.class
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# C++ compiled outputs (VS Code g++ task builds fileDirName/fileBasenameNoExtension)
+problems/*
+!problems/*.cpp
+
+# IDE / editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# CMake / build directories
+build/
+cmake-build-*/
